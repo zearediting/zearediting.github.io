@@ -3,6 +3,7 @@
 body {
     margin: 0;
     background-color: rgb(0, 64, 182);
+    background-image: linear-gradient(rgb(28, 85, 190), rgb(40, 60, 98));
     font-family: "Open Sans", sans-serif;
 }
 
@@ -13,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 90px;
+  font-size: 75px;
   font-weight: lighter;
   font-family: "Alfa Slab One";
 }
@@ -29,6 +30,10 @@ body {
     margin: 50px;
     margin-left: 500px;
     margin-right: 500px;
+}
+
+.blackbg{
+    background-color: black;
 }
 
 #hover-button{
@@ -51,6 +56,8 @@ body {
 
 #hover-button:hover{
     transform: scale(1.1);
+    color: white;
+    background-color: black;
 }
 
 #hover-button:hover:before, #hover-button:focus:before, #hover-button:active:before {
@@ -65,21 +72,63 @@ body {
     display: flex;
     margin-top: -60px;
     padding: 50px;
-    gap: 10px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.contact-logos {
+    display: flex;
+    margin-top: -200px;
+    padding: 50px;
+    gap: 50px;
     justify-content: center;
 }
 
 .card {
     max-width: 100%;
     border-radius: 5px;
-    transition: .1s ease all;
+	transition: transform 0.25s cubic-bezier(0.61, 1, 0.88, 1);
     box-shadow: 2px 15px 15px black;
+}
+
+.contact-link {
+    max-width: 100%;
+    transform: scale(0.25);
+    border-radius: 5px;
+	transition: transform 0.2s cubic-bezier(0.61, 1, 0.88, 1);
+    margin-left: 50px;
+    margin-right: 500px;
+}
+
+.contact-link:hover {
+    transform: scale(0.3);
+}
+
+.contact-link:active {
+    transform: scale(0.2);
+}
+
+.view-count {
+    color: white;
+    font-family: ALfa Slab One;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.desc {
+    color: white;
+    font-family: ALfa Slab One;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
 }
 
 .card:hover{
     transform: scale(1.01);
     margin-top: -5px;
-    filter:sepia(25%);
+    filter:sepia(50%);
 }
 
 .card:active {

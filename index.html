@@ -13,21 +13,22 @@
         </nav>
     </header>
     <p id="description-paragraph">I'm a small video editor with over 1 year of experience, I have a lot of experience editing videos for my own youtube channel, and have edited videos for other people such as the ones shown below.</p>
-    <h1 style="display: flex; justify-content: center; margin-top: 25px; color: white;">My past work for other creators:</h1>
+    <h1 style="display: flex; justify-content: center; margin-top: 25px; color: white;" class="blackbg">My past work for other creators:</h1>
     <div class="carousel">
         <div>
             <a href="https://www.youtube.com/watch?v=cxoU5hKnIUo" target="_blank">
                 <img src="Images/Thumbnail1.jpg" class="card">
             </a>
-            
+            <p class="view-count">15K views</p>
         </div>
         <div>
             <a href="https://www.youtube.com/watch?v=wH0WTrN19gU" target="_blank">
                 <img src="Images/Thumbnail2.jpg" class="card">
             </a>
+            <p class="view-count">63K views</p>
         </div>
     </div>
-    <h1 style="display: flex; justify-content: center; color: white; margin-top: -25px;">My best and most popular work for my own channel:</h1>
+    <h1 style="display: flex; justify-content: center; color: white; margin-top: -25px;" class="blackbg">My best and most popular work for my own channel:</h1>
     <div class="carousel">
         <div>
             <a href="https://www.youtube.com/watch?v=CeuaDaKOQvw" target="_blank">
@@ -53,9 +54,38 @@
         </a>
     </div>
 
-    <p style="display: flex; justify-content: center; font-weight: bold; font-size: 50px;background-color: black; height: 200px; color: white; align-items: center;">120K+ views on youtube</p>
+
+
+    <p style="display: flex; justify-content: center; font-weight: bold; font-size: 50px;background-color: black; height: 200px; color: white; align-items: center;">120K+ views and counting on youtube</p>
+
+    <p style="display: flex; justify-content: center; font-weight: bold; font-size: 40px;background-color: black; height: 150px; color: white; align-items: center; margin-top: -75px;">Contact me to discuss pricing for a project:</p>
+    <div class="contact-logos">
+        <div>
+            <a href="https://x.com/Capybara296" target="_blank">
+                <img src="Images/Icons/X logo.png" class="contact-link">
+            </a>
+            <p class="desc">X</p>
+        </div>
+        <div>
+            <button style="background: none; border: none;" onclick="discordPopup()">
+                <img src="Images/Icons/discordIcon.png" class="contact-link">
+            </button>
+            <p class="desc">Discord</p>
+        </div>
+        <div>
+            <a href="mailto:zear2482@gmail.com" target="_blank">
+                <img src="Images/Icons/Email.png" class="contact-link">
+            </a>
+            <p class="desc">Email me</p>
+        </div>
+    </div>
     <footer class="site-footer"> 
         <p></p>
     </footer>
 </body>
+<script>
+    function discordPopup() {
+        alert("No discord server, but my username is zear88");
+    }
+</script>
 </html>
