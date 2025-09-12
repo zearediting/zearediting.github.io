@@ -108,7 +108,7 @@ body {
 
 .view-count {
     color: white;
-    font-family: ALfa Slab One;
+    font-family: Alfa Slab One;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@ body {
 }
 .desc {
     color: white;
-    font-family: ALfa Slab One;
+    font-family: Alfa Slab One;
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -143,4 +143,33 @@ body {
     align-items: center;
     text-align: center;
     font-size: 75px;
+}
+
+.pfp {
+    display: flex;
+    border-radius: 75px;
+    margin-left: 135px;
+    justify-content: center;
+}
+
+.review-name {
+    color: white;
+    font: Alfa Slab One;
+    font-size: 25px;
+    font-weight: 750;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.review {
+    color: white;
+    font: Alfa Slab One;
+    font-size: 20px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
